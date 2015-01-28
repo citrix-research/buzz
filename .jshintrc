@@ -3,5 +3,6 @@
   "node": true,
   "globals": {
     "define": true
-  }
+  },
+  "strict": false
 }

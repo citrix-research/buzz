@@ -10,8 +10,6 @@
 /* global define */
 
 (function (context, factory) {
-    "use strict";
-
     if (typeof module !== 'undefined' && module.exports) {
         module.exports = factory();
     } else if (typeof define === 'function' && define.amd) {
@@ -20,8 +18,6 @@
         context.buzz = factory();
     }
 })(this, function () {
-    "use strict";
-
     var AudioContext = window.AudioContext || window.webkitAudioContext;
 
     var buzz = {
